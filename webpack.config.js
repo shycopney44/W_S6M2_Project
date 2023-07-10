@@ -66,16 +66,7 @@ const config = {
       },
       {
         test: /\.(png|jpe?g|gif|svg)$/i,
-        use: [
-          {
-            loader: FILE_LOADER,
-            options: {
-              name: '[name].[ext]',
-              outputPath: IMAGES,
-              publicPath: IMAGES,
-            },
-          },
-        ],
+        type: 'asset/resource',
       },
       {
         test: /\.mp3$/,
