@@ -19,7 +19,6 @@ const INDEX_HTML_PATH = './frontend/index.html'
 const INDEX_JS_PATH = './frontend/index.js'
 const DIST_FOLDER = 'dist'
 const BUNDLE_FILE = 'index.js'
-const IMAGES = 'images/'
 const AUDIO = 'audio/'
 
 const SOURCE_MAP = IS_DEV ? 'source-map' : false
